@@ -8987,7 +8987,6 @@
     "ListKeyVaultKeysDefinition": {
       "type": "object",
       "description": "The list key vault keys definition.",
-      "additionalProperties": false,
       "required": [
         "keyVault"
       ],
@@ -9005,7 +9004,6 @@
     "KeyVaultReference": {
       "type": "object",
       "description": "The key vault reference.",
-      "additionalProperties": false,
       "properties": {
         "name": {
           "type": "string",
@@ -9067,7 +9065,6 @@
     },
     "TrackingEventsDefinition": {
       "type": "object",
-      "additionalProperties": false,
       "required": [
         "sourceType",
         "events"
@@ -9101,7 +9098,6 @@
     },
     "TrackingEvent": {
       "type": "object",
-      "additionalProperties": false,
       "required": [
         "eventLevel",
         "eventTime",
@@ -9167,7 +9163,6 @@
     },
     "TrackingEventErrorInfo": {
       "type": "object",
-      "additionalProperties": false,
       "properties": {
         "message": {
           "type": "string"
@@ -9179,7 +9174,6 @@
     },
     "AccessKeyRegenerateActionDefinition": {
       "type": "object",
-      "additionalProperties": false,
       "required": [
         "keyType"
       ],
@@ -9204,7 +9198,6 @@
     },
     "SetTriggerStateActionDefinition": {
       "type": "object",
-      "additionalProperties": false,
       "required": [
         "source"
       ],
@@ -9241,7 +9234,6 @@
     },
     "Expression": {
       "type": "object",
-      "additionalProperties": false,
       "properties": {
         "text": {
           "type": "string"
@@ -9261,7 +9253,6 @@
     "AzureResourceErrorInfo": {
       "type": "object",
       "description": "The azure resource error info.",
-      "additionalProperties": false,
       "required": [
         "message"
       ],
@@ -9287,7 +9278,6 @@
     "ErrorInfo": {
       "type": "object",
       "description": "The error info.",
-      "additionalProperties": false,
       "required": [
         "code"
       ],
@@ -9313,7 +9303,6 @@
     "WorkflowRunActionRepetitionDefinition": {
       "type": "object",
       "description": "The workflow run action repetition definition.",
-      "additionalProperties": false,
       "required": [
         "properties"
       ],
@@ -9333,7 +9322,6 @@
     "WorkflowRunActionRepetitionProperties": {
       "type": "object",
       "description": "The workflow run action repetition properties definition.",
-      "additionalProperties": false,
       "properties": {
         "repetitionIndexes": {
           "type": "array",
@@ -9352,7 +9340,6 @@
     "RepetitionIndex": {
       "type": "object",
       "description": "The workflow run action repetition index.",
-      "additionalProperties": false,
       "required": [
         "itemIndex"
       ],
@@ -9371,7 +9358,6 @@
     "OperationResult": {
       "type": "object",
       "description": "The operation result definition.",
-      "additionalProperties": false,
       "properties": {
         "trackingId": {
           "type": "string",
@@ -9425,7 +9411,6 @@
       "type": "object",
       "x-abstract": true,
       "description": "The run operation result properties.",
-      "additionalProperties": false,
       "properties": {
         "startTime": {
           "type": "string",
@@ -9455,7 +9440,6 @@
     "RunActionCorrelation": {
       "type": "object",
       "description": "The workflow run action correlation properties.",
-      "additionalProperties": false,
       "properties": {
         "actionTrackingId": {
           "type": "string",
@@ -9471,7 +9455,6 @@
     "RunCorrelation": {
       "type": "object",
       "description": "The correlation properties.",
-      "additionalProperties": false,
       "properties": {
         "clientTrackingId": {
           "type": "string",
@@ -9515,7 +9498,6 @@
     "AssemblyDefinition": {
       "type": "object",
       "description": "The assembly definition.",
-      "additionalProperties": false,
       "required": [
         "properties"
       ],
@@ -9534,7 +9516,6 @@
     "AssemblyProperties": {
       "type": "object",
       "description": "The assembly properties definition.",
-      "additionalProperties": false,
       "required": [
         "assemblyName"
       ],
@@ -9564,7 +9545,6 @@
     },
     "ArtifactContentPropertiesDefinition": {
       "type": "object",
-      "additionalProperties": false,
       "description": "The artifact content properties definition.",
       "properties": {
         "content": {},
@@ -9585,7 +9565,6 @@
     },
     "ArtifactProperties": {
       "type": "object",
-      "additionalProperties": false,
       "description": "The artifact properties definition.",
       "properties": {
         "createdTime": {
@@ -9616,7 +9595,6 @@
     "BatchConfiguration": {
       "type": "object",
       "description": "The batch configuration resource definition.",
-      "additionalProperties": false,
       "required": [
         "properties"
       ],
@@ -9635,7 +9613,6 @@
     "BatchConfigurationProperties": {
       "type": "object",
       "description": "The batch configuration properties definition.",
-      "additionalProperties": false,
       "required": [
         "batchGroupName",
         "releaseCriteria"
@@ -9668,7 +9645,6 @@
     },
     "BatchReleaseCriteria": {
       "type": "object",
-      "additionalProperties": false,
       "description": "The batch release criteria.",
       "properties": {
         "messageCount": {
